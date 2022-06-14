@@ -7,6 +7,9 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body{
+    background-color: rgba(172, 191, 207, 0.788);
+}
 header{
     background:linear-gradient(to left , rgb(0, 217, 255),rgb(6, 188, 234),blue);
 }
@@ -46,12 +49,12 @@ header{
 /*header done */
 .side-article{
     background-color: rgb(6, 188, 234);
-    position: absolute;
-    right: 50px;
+    float: right;
     width: 300px;
     text-align: center;
     padding: 0 30px;
-    margin-top: 25px;
+    margin:25px 25px;
+    height: 80%;
 }
 
 .side-article h2{ 
@@ -64,3 +67,33 @@ header{
 .side-article p { 
     margin-top: 40px;
    color: black;}
+.main-article{
+    background-color:rgb(6, 188, 234) ;
+    width: 82%;
+    height: 390px;
+    padding: 75px 155px;
+    line-height: 1.8rem;
+    margin:25px 10px;
+    font-size: large;
+  
+
+}
+.main-article p {
+    font-weight: bold;
+}
+.main-article h2{
+    color: white;
+    padding-bottom: 30px;
+}
+
+.f-left{
+    float:left;
+    padding:0 40px 0 0;
+}
+
+.f-right{
+    float:right;
+padding:0 40px 0 0;
+} 
+
+
